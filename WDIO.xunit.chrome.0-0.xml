@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Sign_in" timestamp="2021-10-12T11:02:09" time="0.005" tests="8" failures="0" errors="0" skipped="8">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Sign-in"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Sign_in" name="Verify_that_the_organisation_admin_user_sign_in_successfully_when_user_enter_the_valid_email_id_and_valid_password" time="0.003">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_the_user_logged_out_successfully_when_the_user_clicks_on_the_logout_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_the_user_receives_the_Reset_Password_link_in_the_email_and_the_sign_in_page_is_displayed_when_the_user_clicks_on_the_Restore_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_Super_Admin_user_is_logged_in_successfully_when_valid_UN_and_PW_is_submitted" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_Workflow_Admin_user_is_logged_in_successfully_when_valid_UN_and_PW_is_submitted" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_Group_Admin_user_is_logged_in_successfully_when_valid_UN_and_PW_is_submitted" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_the_user_is_unable_to_sign_in_when_invalid_credentials_are_specified_in_the_sign_in_page" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Sign_in" name="Verify_that_the_user_email_is_not_a_case_sensitive" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Organisation" timestamp="2021-10-12T11:02:09" time="0.005" tests="9" failures="0" errors="0" skipped="9">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Organisation"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_organisation_admin_can_create_new_user_with_permitted_email_id" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_Organisation_admin_can_edit_the_existing_user" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_Organisation_admin_can_delete_the_created_user" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_Organisation_page_is_displayed_when_the_user_clicks_on_the_Organisation_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_User_List_page_is_displayed_when_the_user_clicks_on_the_Users_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_Group_List_page_is_displayed_when_the_user_clicks_on_the_Groups_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_organisation_admin_can_create_new_group" time="0.003">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_organisation_admin_can_edit_the_existing_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Organisation" name="Verify_that_the_organisation_admin_can_delete_the_group" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Profile" timestamp="2021-10-12T11:02:09" time="0" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Profile"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Profile" name="Verify_that_user_is_able_to_edit_his_profile_details" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentLibrary" timestamp="2021-10-12T11:02:09" time="0.017" tests="6" failures="0" errors="0" skipped="6">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="DocumentLibrary"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_create_a_new_folder" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_edit_a_created_folder" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_share_the_created_folder_with_a_user" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_share_the_created_folder_with_a_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_share_the_created_folder_with_both_user_and_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.DocumentLibrary" name="Verify_that_the_user_can_delete_a_created_folder" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Notifications" timestamp="2021-10-12T11:02:09" time="0" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Notifications"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Notifications" name="Verify_that_the_Notification_panel_is_displayed_when_the_user_clicks_on_the_bell_icon_button" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Support" timestamp="2021-10-12T11:02:09" time="0.001" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Support"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Support" name="Verify_that_the_intercom_chat_is_displayed_when_the_user_clicks_on_the_Support_option" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="FAQ" timestamp="2021-10-12T11:02:09" time="0" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="FAQ"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.FAQ" name="Verify_that_the_FAQ_page_is_displayed_when_the_user_click_on_the_FAQ_option" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="SuperAdminRoles" timestamp="2021-10-12T11:02:09" time="0.005" tests="9" failures="0" errors="0" skipped="9">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="SuperAdminRoles"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_Admin_can_create_a_New_User" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_Admin_can_edit_the_new_user_details" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_super_admin_can_delete_the_user_from_the_organisation" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_Admin_can_create_new_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_Admin_can_edit_the_group_details" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_Admin_can_delete_the_group" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_admin_can_create_a_New_Organisation" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_admin_can_deactivate_the_Organisation" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.SuperAdminRoles" name="Verify_that_the_Super_admin_can_edit_the_Organisation" time="0.001">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Workflows" timestamp="2021-10-12T11:02:09" time="0.002" tests="3" failures="0" errors="0" skipped="3">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Workflows"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Workflows" name="Verify_that_the_user_can_create_a_new_workflow" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Workflows" name="Verify_that_the_user_can_edit_the_workflows" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Workflows" name="Verify_that_the_user_can_delete_the_workflows" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Search" timestamp="2021-10-12T11:02:09" time="0.015" tests="22" failures="0" errors="0" skipped="22">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Search"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Search" name="Verify_that_the_user_can_assign_the_save_search_with_user" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_user_can_assign_the_save_search_with_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_user_can_assign_the_save_search_with_both_user_and_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_user_can_preview_the_document_in_the_document_preview_panel_when_the_preview_button_is_clicked_on_the_search_results_for_the_related_document" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_Data_Source_options_are_cleared_when_the_user_clicks_on_the_Clear_All_button_in_search_page" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_dropdown_options_are_displayed_when_the_user_clicks_on_the_Enforcement_option" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_manage_filters_panel_is_displayed_when_the_manage_filters_option_is_clicked" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_ascending_order_when_the_Document_Title_ascending_option_is_selected_in_Sorting_options" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_descending_order_when_the_Document_Title_descending_option_is_selected_in_Sorting_options" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_newest_publication_date_order_when_the_publication_date_newest_first_option_is_selected_in_Sorting_options" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_oldest_publication_date_order_when_the_publication_date_oldest_first_option_is_selected_in_Sorting_options" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_burden_score_order_when_the_burden_score_option_is_selected_in_Sorting_options" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_search_results_are_displayed_in_relevance_order_when_the_relevance_option_is_selected_in_Sorting_options" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_key_information_fields_are_displayed_for_the_Enforcements_document_types_in_the_document_information_panel" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_any_keyword_related_to_Any_of_these_words_field_is_displayed_on_the_Search_results" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_altered_metadata_fields_like_Topics_Tags_Themes_and_Industry_are_updated_in_the_document_successfully" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_breaches_are_displayed_in_the_breaches_section_successfully" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_breaches_are_cleared_under_the_corresponding_breaches_when_the_close_X_icon_is_clicked_on_the_pills" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_SMF_SIMF_and_CF_are_displayed_in_the_other_information_section_successfully" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_SMF_SIMF_and_CF_are_cleared_under_the_corresponding_dropdown_when_the_close_X_icon_is_clicked_on_the_pills" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_only_reviewed_documents_are_displayed_in_the_search_results_when_the_super_admin_toggle_on_the_Document_Reviewed_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Search" name="Verify_that_the_selected_Manage_Filter_options_are_displayed_on_the_Search_page_when_user_click_on_the_Apply_button" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Saved_Searches" timestamp="2021-10-12T11:02:09" time="0.002" tests="5" failures="0" errors="0" skipped="5">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Saved Searches"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Saved_Searches" name="Verify_that_the_user_can_assign_the_save_searches_with_user" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Saved_Searches" name="Verify_that_the_user_can_assign_the_save_searches_with_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Saved_Searches" name="Verify_that_the_user_can_assign_the_save_searches_with_both_user_and_group" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Saved_Searches" name="Verify_that_the_user_can_delete_the_saved_searches_successfully" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Saved_Searches" name="Verify_that_the_Search_page_is_displayed_when_the_user_clicks_on_the_title_name_in_the_Saved_Search_page" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Basket" timestamp="2021-10-12T11:02:09" time="16.492" tests="5" failures="0" errors="0" skipped="4">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Basket"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Basket" name="verify_that_the_selected_documents_are_displayed_in_the_basket_feature" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Basket" name="Verify_that_the_user_can_create_a_new_folder" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Basket" name="Verify_that_the_user_can_delete_the_documents_when_the_user_clicks_on_the_Clear_All_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Basket" name="Verify_that_the_documents_in_the_basket_panel_are_deleted_when_the_user_clicks_on_the_Empty_Basket_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Basket" name="Verify_that_the_documents_in_the_basket_panel_are_deleted_when_the_user_clicks_on_the_Empty_Basket_button" time="16.489">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/url - {"url":"https://dev.waymark.tech/sign-in"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/window_handle - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"CDwindow-BD098A32CBDFEF48B2229387FF339DD6","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/window/CDwindow-BD098A32CBDFEF48B2229387FF339DD6/maximize - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"height":820,"width":1440,"x":0,"y":25},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"#email"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}\n  (Session info: chrome=94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'Chandans-MacBook-Air.local', ip: '2406:7400:63:cf67:8860:be2d:1770:9264%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: driver.version: unknown"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#email"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#email"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#email"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#email"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"0ac51de7-cda4-42c0-ac6e-dd32b29c5da7"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/0ac51de7-cda4-42c0-ac6e-dd32b29c5da7/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"#email"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"0ac51de7-cda4-42c0-ac6e-dd32b29c5da7"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/0ac51de7-cda4-42c0-ac6e-dd32b29c5da7/clear - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/0ac51de7-cda4-42c0-ac6e-dd32b29c5da7/value - {"value":["c","h","a","n","d","a","n","@","c","a","(13 more items)"],"text":"chandan@calibrecode.com"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"#password"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"5476b02b-e3c2-4504-8712-6f0e8f764aef"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#password"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"5476b02b-e3c2-4504-8712-6f0e8f764aef"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5476b02b-e3c2-4504-8712-6f0e8f764aef/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"#password"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"5476b02b-e3c2-4504-8712-6f0e8f764aef"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5476b02b-e3c2-4504-8712-6f0e8f764aef/clear - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5476b02b-e3c2-4504-8712-6f0e8f764aef/value - {"value":["C","a","l","i","b","r","e","@","1","0"],"text":"Calibre@10"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='Sign In']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"162971d9-79ba-4cd1-9e6b-9c48c88b93b1"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='Sign In']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"162971d9-79ba-4cd1-9e6b-9c48c88b93b1"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/162971d9-79ba-4cd1-9e6b-9c48c88b93b1/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='Sign In']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"162971d9-79ba-4cd1-9e6b-9c48c88b93b1"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/162971d9-79ba-4cd1-9e6b-9c48c88b93b1/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Search']\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Search']\"}\n  (Session info: chrome=94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'Chandans-MacBook-Air.local', ip: '2406:7400:63:cf67:8860:be2d:1770:9264%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: driver.version: unknown"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"180344e2-8ead-491a-b086-d9e3a2fdcf8a"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/180344e2-8ead-491a-b086-d9e3a2fdcf8a/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":false,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"180344e2-8ead-491a-b086-d9e3a2fdcf8a"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/180344e2-8ead-491a-b086-d9e3a2fdcf8a/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='Search']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"180344e2-8ead-491a-b086-d9e3a2fdcf8a"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/180344e2-8ead-491a-b086-d9e3a2fdcf8a/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#data_source_id\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#data_source_id\"}\n  (Session info: chrome=94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'Chandans-MacBook-Air.local', ip: '2406:7400:63:cf67:8860:be2d:1770:9264%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: driver.version: unknown"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"5e7c094d-3058-4007-955a-4a37511000a4"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5e7c094d-3058-4007-955a-4a37511000a4/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":"#data_source_id"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"5e7c094d-3058-4007-955a-4a37511000a4"}],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5e7c094d-3058-4007-955a-4a37511000a4/clear - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/5e7c094d-3058-4007-955a-4a37511000a4/value - {"value":["A","c","c","e","s","s"," ","B","o","a","(4 more items)"],"text":"Access Board"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)\"}\n  (Session info: chrome=94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'Chandans-MacBook-Air.local', ip: '2406:7400:63:cf67:8860:be2d:1770:9264%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: driver.version: unknown"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"907a8761-0427-4932-9489-6f34acc997c7"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/907a8761-0427-4932-9489-6f34acc997c7/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"907a8761-0427-4932-9489-6f34acc997c7"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/907a8761-0427-4932-9489-6f34acc997c7/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(3) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"08272d84-d7a6-4750-ae8e-c017a71b31ba"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/08272d84-d7a6-4750-ae8e-c017a71b31ba/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Nancy Starnes Elected Chair of the Access Board","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"79dca43e-69b0-42fa-a355-0fbff378bf47"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"79dca43e-69b0-42fa-a355-0fbff378bf47"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/79dca43e-69b0-42fa-a355-0fbff378bf47/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"79dca43e-69b0-42fa-a355-0fbff378bf47"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/79dca43e-69b0-42fa-a355-0fbff378bf47/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(4) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"c114f0cc-b1d0-49d3-a467-4887720265db"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/c114f0cc-b1d0-49d3-a467-4887720265db/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Board Names Advisory Committee Chairs","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"351213fc-5da8-4b86-8030-3b9092486187"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"351213fc-5da8-4b86-8030-3b9092486187"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/351213fc-5da8-4b86-8030-3b9092486187/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"351213fc-5da8-4b86-8030-3b9092486187"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/351213fc-5da8-4b86-8030-3b9092486187/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(5) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"1403e285-5db8-42c5-a245-42ee6088cdeb"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/1403e285-5db8-42c5-a245-42ee6088cdeb/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Board Releases Guidance on Playground Surfaces","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(6) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"986e0ab4-90fe-4b6a-949f-1b44b2c200f1"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(6) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"986e0ab4-90fe-4b6a-949f-1b44b2c200f1"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/986e0ab4-90fe-4b6a-949f-1b44b2c200f1/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(6) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"986e0ab4-90fe-4b6a-949f-1b44b2c200f1"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/986e0ab4-90fe-4b6a-949f-1b44b2c200f1/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(6) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"ef8a0fca-8587-41d3-876f-5c4feb0d0e6e"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/ef8a0fca-8587-41d3-876f-5c4feb0d0e6e/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Access Board Initiates Update of Accessibility Guidelines for Rail Cars","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(7) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"c3ab0624-96de-4141-a5f3-fc9a2f032d55"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(7) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"c3ab0624-96de-4141-a5f3-fc9a2f032d55"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/c3ab0624-96de-4141-a5f3-fc9a2f032d55/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(7) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"c3ab0624-96de-4141-a5f3-fc9a2f032d55"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/c3ab0624-96de-4141-a5f3-fc9a2f032d55/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(7) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"fb44c306-a584-4f5e-b491-743021f78b6a"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/fb44c306-a584-4f5e-b491-743021f78b6a/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Forum on Improving Access to Federal Sector IT to be Held at CSUN Conference","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//*[text()='Add ']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"69c2777e-5630-45bf-8daf-313f786a1230"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//*[text()='Add ']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"69c2777e-5630-45bf-8daf-313f786a1230"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/69c2777e-5630-45bf-8daf-313f786a1230/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//*[text()='Add ']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"69c2777e-5630-45bf-8daf-313f786a1230"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/69c2777e-5630-45bf-8daf-313f786a1230/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-item:nth-child(3) .MuiBadge-root"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"13e07634-9e79-4c23-a392-67d078e4f933"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-item:nth-child(3) .MuiBadge-root"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"13e07634-9e79-4c23-a392-67d078e4f933"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/13e07634-9e79-4c23-a392-67d078e4f933/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-item:nth-child(3) .MuiBadge-root"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"13e07634-9e79-4c23-a392-67d078e4f933"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/13e07634-9e79-4c23-a392-67d078e4f933/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-justify-xs-center .MuiButtonBase-root:nth-child(2)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"74f2804b-fe42-4494-ba9d-88e48704f165"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-justify-xs-center .MuiButtonBase-root:nth-child(2)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"74f2804b-fe42-4494-ba9d-88e48704f165"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/74f2804b-fe42-4494-ba9d-88e48704f165/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-justify-xs-center .MuiButtonBase-root:nth-child(2)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"74f2804b-fe42-4494-ba9d-88e48704f165"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/74f2804b-fe42-4494-ba9d-88e48704f165/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)\"}","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)\"}\n  (Session info: chrome=94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'Chandans-MacBook-Air.local', ip: '2406:7400:63:cf67:8860:be2d:1770:9264%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'\nDriver info: driver.version: unknown"}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"4b85a0f0-f34d-4cd5-8036-9c4578602968"},{"element-6066-11e4-a52e-4f735466cecf":"168b23fa-ae3c-4ea4-8063-843303fdf078"},{"element-6066-11e4-a52e-4f735466cecf":"802259ec-59f6-4b93-bc0e-503280da71b5"},{"element-6066-11e4-a52e-4f735466cecf":"ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39"},{"element-6066-11e4-a52e-4f735466cecf":"3defdaae-84eb-4a83-9998-25c2445d3550"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/4b85a0f0-f34d-4cd5-8036-9c4578602968/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/168b23fa-ae3c-4ea4-8063-843303fdf078/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/802259ec-59f6-4b93-bc0e-503280da71b5/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/3defdaae-84eb-4a83-9998-25c2445d3550/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(1) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"4b85a0f0-f34d-4cd5-8036-9c4578602968"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/4b85a0f0-f34d-4cd5-8036-9c4578602968/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(1) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"e21fb6b0-f29b-4ff7-b9ff-1ead9f069031"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/e21fb6b0-f29b-4ff7-b9ff-1ead9f069031/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Back to search","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(2) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"4b85a0f0-f34d-4cd5-8036-9c4578602968"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(2) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"4b85a0f0-f34d-4cd5-8036-9c4578602968"},{"element-6066-11e4-a52e-4f735466cecf":"168b23fa-ae3c-4ea4-8063-843303fdf078"},{"element-6066-11e4-a52e-4f735466cecf":"802259ec-59f6-4b93-bc0e-503280da71b5"},{"element-6066-11e4-a52e-4f735466cecf":"ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39"},{"element-6066-11e4-a52e-4f735466cecf":"3defdaae-84eb-4a83-9998-25c2445d3550"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/4b85a0f0-f34d-4cd5-8036-9c4578602968/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/168b23fa-ae3c-4ea4-8063-843303fdf078/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/802259ec-59f6-4b93-bc0e-503280da71b5/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39/displayed - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/3defdaae-84eb-4a83-9998-25c2445d3550/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(2) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"4b85a0f0-f34d-4cd5-8036-9c4578602968"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/4b85a0f0-f34d-4cd5-8036-9c4578602968/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(2) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"2b4d736d-c863-4030-9be6-eaf917133cdd"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/2b4d736d-c863-4030-9be6-eaf917133cdd/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Dashboard","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"802259ec-59f6-4b93-bc0e-503280da71b5"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"802259ec-59f6-4b93-bc0e-503280da71b5"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/802259ec-59f6-4b93-bc0e-503280da71b5/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(3) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"802259ec-59f6-4b93-bc0e-503280da71b5"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/802259ec-59f6-4b93-bc0e-503280da71b5/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(3) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"be4f7008-4694-477c-8a70-a84d02de840b"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/be4f7008-4694-477c-8a70-a84d02de840b/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Board Releases Guidance on Playground Surfaces","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(4) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/ca7f7b53-1d26-4b45-b78d-7a4a5a93bf39/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(4) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"06fccb3f-1fe6-432d-bcdc-301485c5813f"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/06fccb3f-1fe6-432d-bcdc-301485c5813f/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Access Board Initiates Update of Accessibility Guidelines for Rail Cars","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"3defdaae-84eb-4a83-9998-25c2445d3550"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"3defdaae-84eb-4a83-9998-25c2445d3550"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/3defdaae-84eb-4a83-9998-25c2445d3550/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiGrid-root:nth-child(5) .MuiCheckbox-colorSecondary:nth-child(1)"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"3defdaae-84eb-4a83-9998-25c2445d3550"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/3defdaae-84eb-4a83-9998-25c2445d3550/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":"div:nth-child(1) .MuiGrid-item:nth-child(5) a span"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"2b27c70c-5fc3-4339-9302-8c78866d79d0"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/2b27c70c-5fc3-4339-9302-8c78866d79d0/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Forum on Improving Access to Federal Sector IT to be Held at CSUN Conference","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='View cumulative burden score']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"a3855757-6f74-47b1-8d63-f25b04045d25"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//span[.='View cumulative burden score']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"a3855757-6f74-47b1-8d63-f25b04045d25"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/a3855757-6f74-47b1-8d63-f25b04045d25/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='View cumulative burden score']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"a3855757-6f74-47b1-8d63-f25b04045d25"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/a3855757-6f74-47b1-8d63-f25b04045d25/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//span[.='Burden assessment']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"cf3b2255-77ee-420a-8fc4-8d23b5991a95"},"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/cf3b2255-77ee-420a-8fc4-8d23b5991a95/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Burden assessment","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiSvgIcon-root.MuiAvatar-fallback"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"c558b777-ed30-4c7f-8ed2-fd5a1beb3e76"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"css selector","value":".MuiSvgIcon-root.MuiAvatar-fallback"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"c558b777-ed30-4c7f-8ed2-fd5a1beb3e76"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/c558b777-ed30-4c7f-8ed2-fd5a1beb3e76/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"css selector","value":".MuiSvgIcon-root.MuiAvatar-fallback"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"c558b777-ed30-4c7f-8ed2-fd5a1beb3e76"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/c558b777-ed30-4c7f-8ed2-fd5a1beb3e76/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//li[.='Logout']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"93d9e23b-453f-46c7-be24-0586bb54939a"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/elements - {"using":"xpath","value":"//li[.='Logout']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"93d9e23b-453f-46c7-be24-0586bb54939a"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/93d9e23b-453f-46c7-be24-0586bb54939a/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element - {"using":"xpath","value":"//li[.='Logout']"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"93d9e23b-453f-46c7-be24-0586bb54939a"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e/element/93d9e23b-453f-46c7-be24-0586bb54939a/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/ea5cc75507fcce72e3d26c3ad38db61e - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Dashboard" timestamp="2021-10-12T11:02:26" time="0.005" tests="2" failures="0" errors="0" skipped="2">
+    <properties>
+      <property name="specId" value="b89547baaa21473bc2d81e65fb5a508c"/>
+      <property name="suiteName" value="Dashboard"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./e2eTests/specs/SmokeSuite.spec.js"/>
+    </properties>
+    <testcase classname="chrome.Dashboard" name="verify_that_the_recently_saved_results_are_displaying_first_on_the_My_Saved_Search_page" time="0.001">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.Dashboard" name="Verify_that_the_Search_page_is_displayed_when_the_user_clicks_on_the_title_name_in_the_My_Saved_Search" time="0.001">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>

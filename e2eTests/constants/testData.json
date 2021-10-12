@@ -1,0 +1,161 @@
+{
+    "waymarkLogin" : 
+    {
+      "url" : "https://dev.waymark.tech/sign-in",
+	    "emails" : "chandan@calibrecode.com",
+      "password" : "Calibre@10",
+      "welcomeText" : "Welcome to Wayfinder",
+      "logoutText" : "Sign In",
+      "signinPageText" : "Sign In",
+      "homePageUrl" : "https://dev.waymark.tech/dashboard",
+      "superAdmin" : "root@test.com",
+      "superAdminPassword" : "root",
+      "superAdminText" : "Sign In",
+      "invalidEmail" : "chandan@calibrecode.co",
+      "invalidText" : "Sign In",
+      "workflowAdmin" : "yatheesh@calibrecode.com",
+      "workflowPassword" : "Calibre@10",
+      "groupAdmin" : "kcchandan423@gmail.com",
+      "groupAdminPassword" : "Chandan@10",
+      "homepageText" : "My saved searches",
+      "caseSensitiveEmail" : "Chandan@calibrecode.com",
+      "dashboardPageUrl" : "https://dev.waymark.tech/dashboard"
+    },
+
+    "waymarkOrganisation" :
+    {
+      "userFirstName" : "Akshay",
+      "userLastName" : "Test",
+      "userEmail" : "akshay@calibrecode.com",
+      "organisationPageUrl" : "https://dev.waymark.tech/organisation/",
+      "organisationUsersUrl" : "https://dev.waymark.tech/organisation/users/",
+      "organisationGroupsUrl" : "https://dev.waymark.tech/organisation/groups/",
+      "selectGroupName" : "Test Group",
+      "editFirstName" : "Yatheesh",
+      "editLastName" : "H S",
+      "editGroupName" : "Chandan Test Group"
+    },
+
+    "profileAvatar" :
+    {
+      "firstNameEdit" : "CHANDAN",
+      "lastNameEdit" : "K C",
+      "profileValidation" : "https://dev.waymark.tech/accessibility"
+    },
+
+    "documentLibrary" :
+    {
+      "folderName" : "Chandan Test Folder",
+      "ValidationTextForFolder" : "Chandan Test Folder",
+      "editFolderName" : "Chandan Test Folder 1",
+      "editFolderNameValidation" : "Chandan Test Folder 1",
+      "deleteValidation" : "Folders: 0",
+      "sharedUserEmail" : "kcchandan423@gmail.com",
+      "sharedUserPassword" : "Chandan@10"
+    },
+
+    "notifications" : 
+    {
+      "notificationsText" : "Notifications"
+    },
+
+    "faq" :
+    {
+      "faqUrl" : "https://docs.waymark.tech/en/"
+    },
+
+    "superAdminRoles" :
+    {
+      "userFirstName" : "Bharat",
+      "userLastName" : "Test",
+      "userEmail" : "bharat@calibrecode.com",
+      "usersCreationValidation" : "https://dev.waymark.tech/users",
+      "editUserFirstName" : "BHARAT",
+      "editUserLastName" : "TEST",
+      "groupName" : "Test Group",
+      "editGroupName" : "TEST GROUP",
+      "groupCreationValidation" : "https://dev.waymark.tech/groups/",
+      "organisationName" : "Automation Organisation",
+      "permittedEmailSuffixes" : "Yopmail201.com",
+      "organisationGroupName" : "Dev Test Group",
+      "organisationUserFirstName" : "Chandan",
+      "organisationUserLastName" : "Test",
+      "organisationUserEmail" : "chandan@yopmail200.com",
+      "editOrganisationName" : "Auto Edit Organiastion",
+      "organisationValidation" : "https://dev.waymark.tech/organisations/"
+    },
+
+    "workflows" :
+    {
+      "workflowName" : "Test Workflow",
+      "validationForCreatingWorkflow" : "Test Workflow",
+      "workflowDescription" : "Test workflow description",
+      "taskName" : "Test Task",
+      "taskDescription" : "Test task description",
+      "optionName" : "Test Dropdown",
+      "editWorflowName" : "Test Workflow 1",
+      "validationForEditingWorkflow" : "Test Workflow 1",
+      "editWorkflowDescription" : "Test workflow description 1",
+      "editTaskName" : "Test Task 1",
+      "editTaskDescription" : "Test task description 1",
+      "removeWorkflow" : "Total: 0"
+    },
+
+    "search" :
+    {
+      "saveSearchTitleForUser" : "PRA Save Search Immediate Alert For User",
+      "saveSearchTitleForGroup" : "PRA Save Search Immediate Alert For Group",
+      "saveSearchTitleForUserAndGroup" : "PRA Save Search Immediate Alert For User and Group",
+      "validationSavedSearchText" : "You just saved the search",
+      "documentPreview" : "PREVIEW",
+      "searchFiltersClearUrlValidation" : "https://dev.waymark.tech/search?page=1&per_page=25&sort=",
+      "administrativeOrderValidation" : "Administrative order",
+      "keywordValidationText" : "Keywords",
+      "documentSortingAscendingOrderUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=document_name",
+      "documentSortingDescendingOrderUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=-document_name",
+      "documentSortingNewestPublicationDateUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=-publication_date",
+      "documentSortingOldestPublicationDateUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=publication_date",
+      "documentSortingBurdenScoreUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=burden_score",
+      "documentSortingRelevanceUrl" : "https://dev.waymark.tech/search?data_source_id=22&page=1&per_page=25&sort=_score",
+      "documentInformationText" : "Document Information",
+      "caseDetailsText" : "Case Details",
+      "penaltyDetailsText" : "Penalty Details",
+      "breachesText" : "Breaches",
+      "otherInformationText" : "Other Information",
+      "anyOfTheseWordSearch" : "fca final notice",
+      "anyOfTheseWordValidation" : "fca-serves-final-notice-to-exdeutsche-bank-submitter",
+      "titleSearch" : "Final Notice 2021: Anthony George",
+      "tags" : "AANA",
+      "themes" : "Banking",
+      "topics" : "Benchmarks",
+      "industry" : "Banks",
+      "smf" : "SMF 1",
+      "simf" : "SIMF1",
+      "cf" : "cf1",
+      "primaryBreaches" : "Cultural failings",
+      "SecondaryBreaches" : "Board and Governance problems",
+      "supportingBreaches" : "Criminal/fraudulent/negligent/reckless behaviour of staff member",
+      "observedBreaches" : "Training issues",
+      "keyword" : "Keywords",
+      "breachesPrimary" : "Breaches Primary",
+      "governmentDepartment" : "Government Department",
+      "commencementDate" : "Commencement Date",
+      "fineCurrency" : "Fine Currency",
+      "fineAmount" : "Fine amount",
+      "recipientType" : "Recipient Type",
+      "sanctions" : "Sanctions"
+    },
+
+    "savedSearches" :
+    {
+      "validationSavedSearchesText" : "Saved search was shared."
+    },
+
+    "basket" :
+    {
+      "folderName" : "Dev Test Folder",
+      "noItemsInBasketText" : "No items in the basket.",
+      "burdenAssessmentPanel" : "Burden assessment"
+    }
+}
+
